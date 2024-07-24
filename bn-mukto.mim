@@ -42,7 +42,7 @@ Author: Dr. Asifur Rahman Akonjee <asifakonjee@hotmail.com>
   
   ("~" "~")
   ((A-`) "‌") ;; ZERO WIDTH NON-JOINER
-  ("`" "`")    
+  ("`" "`")     
   ("!" "!")
   ("1" "১")
   ("@" "@")
@@ -74,12 +74,12 @@ Author: Dr. Asifur Rahman Akonjee <asifakonjee@hotmail.com>
   ("q" "দ")
   ((A-Q) "দ্ব")
   ((A-W) "দ্ধ")
-  ("W" "ঋ")
-  ("w" "ষ")
+  ("W" "ৃ")
+  ("w" "ঋ")
   ("E" "ৈ")
   ("e" "ে")
-  ("R" "ৃ")
-  ("r" "র")
+  ("R" "র্")
+  ("r" "র")  
   ("T" "ঠ")
   ("t" "ট")
   ((A-T) "ট্ট")
@@ -106,6 +106,7 @@ Author: Dr. Asifur Rahman Akonjee <asifakonjee@hotmail.com>
   ((A-P) "ষ্ট")
   ("D" "ঢ")
   ("d" "ড")
+  ((A-d) "ড়")
   ("F" "থ")
   ("f" "ত")
   ((A-F) "ত্ত")
@@ -136,18 +137,15 @@ Author: Dr. Asifur Rahman Akonjee <asifakonjee@hotmail.com>
   
   ("Z" "্র")
   ("z" "্য")
-  ((A-z) "র্")
-  ("X" "হ")
-  ("x" "ড়")
+  ("X" "ঢ়")
+  ("x" "ষ")
   ("C" "ছ")
   ("c" "চ")
   ((A-C) "ঞ্চ")
-  ("V" "আ")
-  ("v" "অ")
-  ("B" "ভ")
+  ("V" "ভ্র")
+  ("v" "ভ")
+  ("B" "্ব")
   ("b" "ব")
-  ((A-B) "্ব")
-  ((A-X) "ভ্র")
   ("N" "ণ")
   ("n" "ন")
   ((A-N) "ন্ঠ")
@@ -171,7 +169,7 @@ Author: Dr. Asifur Rahman Akonjee <asifakonjee@hotmail.com>
 
   )  
   (deadkey
-  ("h" "্") ;; BENGALI SIGN VIRAMA
+  ("h" "্") 
   )
  
  (independent
