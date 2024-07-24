@@ -41,6 +41,7 @@ Author: Dr. Asifur Rahman Akonjee <asifakonjee@hotmail.com>
   ((KP_Subtract) "-") 
   
   ("~" "~")
+  ((A-`) "‌") ;; ZERO WIDTH NON-JOINER
   ("`" "`")    
   ("!" "!")
   ("1" "১")
@@ -179,13 +180,14 @@ Author: Dr. Asifur Rahman Akonjee <asifakonjee@hotmail.com>
   ("I" (delete @-) "ঈ")
   ("u" (delete @-) "উ")
   ("U" (delete @-) "ঊ")
-  ("R" (delete @-) "ঋ")
   ("e" (delete @-) "এ")
   ("E" (delete @-) "ঐ")
   ("o" (delete @-) "ও")
   ("O" (delete @-) "ঔ")
   ("z" (delete @-) "য")
-  ("G" (delete @-) "॥")
+  ("." (delete @-) "॥")
+  ("d" (delete @-) "ড়")
+  ("h" (delete @-) "‍") ;; ZERO WIDTH JOINER 
   ))
  
  (state
